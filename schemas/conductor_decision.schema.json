@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TCAIN Conductor Decision",
+  "type": "object",
+  "required": [
+    "cycle",
+    "source_state_hash",
+    "considered_reports",
+    "accepted_mutations",
+    "rejected_mutations",
+    "deferred_items",
+    "rules_invoked",
+    "validator_verdict",
+    "result_state_hash",
+    "metrics",
+    "decision"
+  ],
+  "properties": {
+    "cycle": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_state_hash": {
+      "type": "string"
+    },
+    "considered_reports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "accepted_mutations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rejected_mutations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "deferred_items": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "rules_invoked": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validator_verdict": {
+      "enum": [
+        "pass",
+        "veto",
+        "escalate"
+      ]
+    },
+    "result_state_hash": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "decision": {
+      "enum": [
+        "continue",
+        "targeted_arbitration",
+        "stop_concurrence",
+        "stop_resource",
+        "escalate"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TCAIN Run Manifest",
+  "type": "object",
+  "required": [
+    "run_id",
+    "condition",
+    "task",
+    "contract_hash",
+    "code_hash",
+    "models",
+    "prompts",
+    "hardware",
+    "budget",
+    "states",
+    "final_status"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "condition": {
+      "enum": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    "task": {
+      "type": "object"
+    },
+    "contract_hash": {
+      "type": "string"
+    },
+    "code_hash": {
+      "type": "string"
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "hardware": {
+      "type": "object"
+    },
+    "budget": {
+      "type": "object"
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "perturbations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "final_status": {
+      "enum": [
+        "concurrence",
+        "resource_terminated",
+        "failed",
+        "operator_halt",
+        "escalated"
+      ]
+    },
+    "results": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

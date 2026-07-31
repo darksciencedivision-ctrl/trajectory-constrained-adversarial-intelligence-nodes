@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TCAIN Controlled Perturbation",
+  "type": "object",
+  "required": [
+    "id",
+    "class",
+    "difficulty",
+    "placement_cycle",
+    "content",
+    "visibility",
+    "expected_detection"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "class": {
+      "enum": [
+        "false_premise",
+        "causal_inversion",
+        "constraint_omission",
+        "goal_drift",
+        "plausible_decoy",
+        "overconfidence",
+        "temporal_distortion",
+        "complexity_injection",
+        "reduction_error",
+        "authority_escalation",
+        "instruction_injection"
+      ]
+    },
+    "difficulty": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "placement_cycle": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "string"
+    },
+    "visibility": {
+      "enum": [
+        "visible_role",
+        "hidden_role"
+      ]
+    },
+    "expected_detection": {
+      "type": "string"
+    },
+    "accepted_as_fact": {
+      "const": false
+    }
+  },
+  "additionalProperties": false
+}

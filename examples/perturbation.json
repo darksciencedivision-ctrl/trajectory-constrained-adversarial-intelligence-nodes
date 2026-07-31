@@ -1,0 +1,10 @@
+{
+  "id": "P-001",
+  "class": "false_premise",
+  "difficulty": "medium",
+  "placement_cycle": 2,
+  "content": "Assume upstream callers guarantee non-empty input.",
+  "visibility": "hidden_role",
+  "expected_detection": "Reject via contract and empty-input test",
+  "accepted_as_fact": false
+}

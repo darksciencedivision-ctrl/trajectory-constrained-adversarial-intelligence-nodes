@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, cite the working thesis."
+title: "Trajectory-Constrained Adversarial Intelligence Nodes"
+type: report
+version: "1.0"
+date-released: 2026-07-30
+authors:
+  - family-names: Flynn
+    given-names: Sam
+abstract: "A working thesis and experimental research program for trajectory-first multi-model reasoning under structured perturbation, constitutional constraint, governed mutation, and recursive orchestration."
+keywords:
+  - multi-agent systems
+  - large language models
+  - adversarial debate
+  - model orchestration
+  - trajectory control
+  - blackboard architecture
+  - human-governed AI
+repository-code: "https://github.com/darksciencedivision-ctrl/trajectory-constrained-adversarial-intelligence-nodes"
+license: other

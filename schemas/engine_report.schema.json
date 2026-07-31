@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TCAIN Engine Report",
+  "type": "object",
+  "required": [
+    "engine_id",
+    "model",
+    "role",
+    "source_state_hash",
+    "claims",
+    "critiques",
+    "proposed_mutations",
+    "unresolved"
+  ],
+  "properties": {
+    "engine_id": {
+      "type": "string"
+    },
+    "model": {
+      "type": "object",
+      "required": [
+        "name",
+        "base_lineage"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "base_lineage": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "quantization": {
+          "type": "string"
+        }
+      }
+    },
+    "role": {
+      "type": "string"
+    },
+    "source_state_hash": {
+      "type": "string"
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "confidence_class"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence_class": {
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "critiques": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "target_id",
+          "severity",
+          "rationale"
+        ],
+        "properties": {
+          "target_id": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "proposed_mutations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "mutation_class",
+          "target",
+          "operation",
+          "justification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "mutation_class": {
+            "enum": [
+              "run_workspace",
+              "canonical"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "operation": {
+            "type": "string"
+          },
+          "justification": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "severity",
+          "question"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "question": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

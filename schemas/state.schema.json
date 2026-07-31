@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TCAIN Shared Work State",
+  "type": "object",
+  "required": [
+    "state_id",
+    "state_hash",
+    "objective_contract_hash",
+    "artifact",
+    "evidence",
+    "constraints",
+    "unresolved",
+    "decisions"
+  ],
+  "properties": {
+    "state_id": {
+      "type": "string"
+    },
+    "state_hash": {
+      "type": "string"
+    },
+    "objective_contract_hash": {
+      "type": "string"
+    },
+    "artifact": {},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "metrics": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

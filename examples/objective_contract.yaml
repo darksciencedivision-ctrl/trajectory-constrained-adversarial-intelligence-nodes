@@ -1,0 +1,13 @@
+objective_contract:
+  objective: "Repair the target function so all visible and hidden tests pass."
+  scope:
+    - "Modify only the target function body"
+    - "Standard library only"
+  constraints:
+    - {id: CN-1, text: "Public signature is immutable", severity: 3}
+    - {id: CN-2, text: "No network or filesystem access", severity: 3}
+  success_criteria:
+    - {id: SC-1, metric: "hidden_test_pass_rate", threshold: 1.0}
+  operator_authority: "Required for canonical promotion"
+  prohibited_mutations: ["tests", "objective contract", "constitutions"]
+  version: "example-r1"
