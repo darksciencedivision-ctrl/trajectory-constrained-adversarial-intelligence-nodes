@@ -29,7 +29,7 @@ For complex multi-model reasoning, final work may be improved more reliably by c
 
 ## Provenance
 
-The core concept and original sketches are by Sam Flynn. Formalization, literature mapping, failure analysis, and drafting were developed through human-governed dialogue with AI assistants. See the authorship and provenance note in the thesis.
+The core concept and original sketches are by Samuel Lawson. Formalization, literature mapping, failure analysis, and drafting were developed through human-governed dialogue with AI assistants. See the authorship and provenance note in the thesis.
 
 ## Repository map
 

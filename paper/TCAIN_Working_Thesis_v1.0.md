@@ -2,7 +2,7 @@
 
 ## A Working Thesis and Experimental Research Program for Multi-Model Reasoning Under Structured Perturbation, Constitutional Constraint, and Recursive Orchestration
 
-**Author: Sam Flynn**  
+**Author: Samuel Lawson**  
 **Research program:** Sovereign Systems Research Program · Dark Science Division  
 **Edition:** Working Thesis v1.0 · July 30, 2026
 
@@ -13,13 +13,13 @@
 | Normative core | Sections 4, 5, 8, 9, and Appendices B–E define the proposed architecture, contracts, merge policy, and test protocol. |
 | Informative core | Sections 2, 3, 6, 7, 10–14 provide origin, lineage, hypotheses, evaluation, limitations, and research boundaries. |
 | Evidence status | The conceptual design is documented. The complete eight-model node has not yet been benchmarked. All performance claims remain hypotheses. |
-| Owner and final authority | Sam Flynn, human operator. No model, node, conductor, validator, or derived document may self-promote or alter the operator-owned objective. |
+| Owner and final authority | Samuel Lawson, human operator. No model, node, conductor, validator, or derived document may self-promote or alter the operator-owned objective. |
 
 ## Authorship and Development Provenance
 
-The original architecture, visual topology, and governing intuition originate with **Sam Flynn**. The primary provenance artifacts are the handwritten triangle and four-directional node sketches reproduced in Appendix D. The originating concepts include: the distinction between trajectory and forced convergence; concurrence as an observed property rather than a required vote; adversarial engines positioned outside the reasoning course; deliberately controlled wrongness used to force self-questioning and course correction; written constitutions as a separate corrective pressure; four directional cells containing two models each; differentiated prompting across levels and perspectives; a governed center trajectory of work; and the possibility of recursively composing nodes as cells within larger nodes.
+The original architecture, visual topology, and governing intuition originate with **Samuel Lawson**. The primary provenance artifacts are the handwritten triangle and four-directional node sketches reproduced in Appendix D. The originating concepts include: the distinction between trajectory and forced convergence; concurrence as an observed property rather than a required vote; adversarial engines positioned outside the reasoning course; deliberately controlled wrongness used to force self-questioning and course correction; written constitutions as a separate corrective pressure; four directional cells containing two models each; differentiated prompting across levels and perspectives; a governed center trajectory of work; and the possibility of recursively composing nodes as cells within larger nodes.
 
-The formal vocabulary, related-work mapping, conductor analysis, state model, merge policy, metric proposals, threat model, experimental protocol, and publication structure were developed through an iterative, human-governed research dialogue between Sam Flynn and AI assistants. Those assistants served as analytical and editorial tools, not autonomous authors or final authorities. The author selected the objectives, corrected misunderstandings, supplied the core design, approved terminology, and retained final control over every claim. This report therefore attributes conceptual authorship to Sam Flynn while transparently acknowledging model-assisted formalization and drafting.
+The formal vocabulary, related-work mapping, conductor analysis, state model, merge policy, metric proposals, threat model, experimental protocol, and publication structure were developed through an iterative, human-governed research dialogue between Samuel Lawson and AI assistants. Those assistants served as analytical and editorial tools, not autonomous authors or final authorities. The author selected the objectives, corrected misunderstandings, supplied the core design, approved terminology, and retained final control over every claim. This report therefore attributes conceptual authorship to Samuel Lawson while transparently acknowledging model-assisted formalization and drafting.
 
 The paper deliberately preserves the difference between **origin** and **formalization**. The fact that later analysis connects the node to debate systems, blackboard architectures, constitutional control, sparse communication, resilient distributed inference, or control theory does not retroactively transfer authorship of the integrated concept to those literatures. Conversely, the presence of an original integration does not erase prior art. The candidate contribution is the specific architecture and research program described here, not ownership of every ingredient from which it is constructed.
 
@@ -1054,7 +1054,7 @@ A credible first paper does not need to prove a path to AGI. It needs to demonst
 
 # 15. Conclusion
 
-Trajectory-Constrained Adversarial Intelligence Nodes reframe multi-model reasoning as a governed trajectory-control problem. The work begins from Sam Flynn's original triangular insight: convergence should not be forced by a fixed loop count or agreement gate; the system should observe whether reasoning is moving, correcting, and stabilizing in a useful direction. External adversarial engines deliberately challenge that course. Constitutional engines preserve mission, evidence, constraints, and authority. Four differentiated cells, each capable of containing two heterogeneous models, direct work toward a shared center state. A conductor governs integration, while a separate validator and human operator prevent synthesis from becoming self-authorized truth.
+Trajectory-Constrained Adversarial Intelligence Nodes reframe multi-model reasoning as a governed trajectory-control problem. The work begins from Samuel Lawson's original triangular insight: convergence should not be forced by a fixed loop count or agreement gate; the system should observe whether reasoning is moving, correcting, and stabilizing in a useful direction. External adversarial engines deliberately challenge that course. Constitutional engines preserve mission, evidence, constraints, and authority. Four differentiated cells, each capable of containing two heterogeneous models, direct work toward a shared center state. A conductor governs integration, while a separate validator and human operator prevent synthesis from becoming self-authorized truth.
 
 The architecture is technically coherent, related to substantial prior work, and specific enough to implement. It is also unvalidated. Its strongest candidate contribution is the integration of trajectory-aware state evolution, controlled plausible wrongness, constitutional runtime contracts, conductor accountability, governed mutation, adaptive stopping, and recursive composition. Its most serious risk is that the conductor or added compute explains any apparent advantage. Its most important next step is a matched-budget experiment, not a larger claim.
 
@@ -1294,6 +1294,10 @@ The v1.0 edition incorporates the v0.1 and v0.2 foundations and the subsequent c
 
 **Deliberately unchanged.** The epistemic-status table's non-claims. The novelty boundary. Section 11's sentience boundaries, which v0.1 already stated correctly. The voice.
 
+
+## v1.0.1 (August 14, 2026)
+
+Author attribution corrected to Samuel Lawson per the program registry decision.
 
 ## v1.0 pre-release corrections (July 31, 2026)
 

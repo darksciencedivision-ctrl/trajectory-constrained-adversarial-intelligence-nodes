@@ -5,8 +5,8 @@ type: report
 version: "1.0"
 date-released: 2026-07-30
 authors:
-  - family-names: Flynn
-    given-names: Sam
+  - family-names: Lawson
+    given-names: Samuel
 abstract: "A working thesis and experimental research program for trajectory-first multi-model reasoning under structured perturbation, constitutional constraint, governed mutation, and recursive orchestration."
 keywords:
   - multi-agent systems

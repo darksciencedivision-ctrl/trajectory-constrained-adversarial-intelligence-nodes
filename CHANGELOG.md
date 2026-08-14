@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.1 - 2026-08-14
+
+- Author attribution corrected to Samuel Lawson per the program registry decision.
+
+
 ## v1.0 (corrected build) - 2026-07-31
 
 Pre-publication corrections from independent verification review: Section 5.7 math repair (corrupted \rightarrow tokens), figure rewiring and renumbering (conductor-control-plane diagram restored, Figures 4-6 sequenced), Section 12 subsection renumbering, in-text citations added for [25]-[27], ATG defined and scoped as a companion concept with no implementation claim, full-tree SHA256 coverage. All 27 references independently verified against primary listings.
